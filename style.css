@@ -1,0 +1,87 @@
+*{
+	padding:0px;
+	margin:0px;
+	box-sizing: border-box;
+}
+body{
+	background:linear-gradient(to right,  #2193b0, #6dd5ed);
+}
+h1{
+	font-size: 3rem;
+	font-weight: 50;
+	text-align: center;
+	margin: 1rem 0 3rem; 
+	font-family:  sans-serif;
+}
+
+.inputDiv {
+	display: flex;
+	justify-content: center;
+	text-align: center;
+	align-items: center;
+	align-content: center;
+}
+.container{
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+	align-items: center;
+	align-content: center;
+	justify-content: center;
+}
+.input {
+	width: 500px;
+	height: 30px;
+}
+.input{
+	padding: 0.5rem 1rem;
+    outline: none;
+    border: none;
+    height: 50px;
+    border-radius: 25px;
+    width: 350px;
+    margin: 0.25rem;
+    transition: .5s;
+    font-size: 1.15rem;
+}
+.add, .deleteall, .edit , .remove{
+	outline: none;
+    border: none;
+    height: 50px;
+    border-radius: 5px;
+    width: 100px;
+    color: white;
+    cursor: pointer;
+    transition: .5s;
+    margin: 0.25rem;
+    font-weight: bold;
+}
+.add, .edit{
+	background-color: green
+}
+.deleteall, .remove{
+	background-color: red;
+}
+
+.edit , .remove{
+	height: 40px;
+	width: 80px;
+}
+.add:hover , .deleteall:hover, .edit:hover, .remove:hover{
+	opacity: 0.7;
+}
+
+.item{
+	padding: 0.5rem;
+	border-bottom: 4px solid #fff;
+	margin-bottom: 1.5rem;
+}
+
+.item_input{
+	background: none;
+	outline: none;
+	border: none;
+	color: #fff;
+	font-size: 1.4rem;
+}
+
